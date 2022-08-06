@@ -15,7 +15,7 @@
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);   // creates MFRC522 instance
 
-String myUID = "31640B1D";
+String myUID = "REPLACE-ME";
 unsigned long strUID[4];
 
 void setup() {
